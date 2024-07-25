@@ -1,0 +1,27 @@
+{
+  "name": "Adafruit_SHT4x_lib_custom",
+  "version": "1.0.1",
+  "description": "Arduino library for SHT4x temperature & humidity sensor.",
+  "keywords": "sensors, temperature, humidity",
+  "authors": [
+    {
+      "name": "OwlSentry"
+    },
+    {
+      "name": "Adafruit",
+      "email": "info@adafruit.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Owl-Sentry/Adafruit_SHT4x_lib_custom"
+  },
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": {
+    "Adafruit BusIO": "*",
+    "jakubiwasz/Adafruit_Unified_Sensor_lib_custom": "1.0.0",
+    "Adafruit SH110X": "*",
+    "Adafruit SSD1306": "*"
+  }
+}
